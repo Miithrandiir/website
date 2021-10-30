@@ -27,7 +27,8 @@ export default {
   .cote {
     display: flex;
     margin: 100px auto;
-    width: 1000px;
+    width: 70%;
+    text-align: justify;
     border-left: 10px solid $main;
     &>p {
       margin: 0 10px;
