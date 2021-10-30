@@ -5,10 +5,12 @@ import Header from "./components/template/Header.vue";
 import './assets/sass/template.scss'
 import WhoIAm from "./components/WhoIAm.vue";
 import Passions from "./components/Passions.vue";
+import Creations from "./components/Creations.vue";
 </script>
 
 <template>
   <Header/>
   <WhoIAm/>
   <Passions/>
+  <Creations/>
 </template>
