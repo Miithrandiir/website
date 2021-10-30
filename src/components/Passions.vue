@@ -58,10 +58,11 @@ h1 {
   width: 90%;
   margin: 100px auto;
   flex-wrap: wrap;
+  justify-content: space-around;
   & > .passion {
     display: flex;
     justify-content: center;
-    width: calc(100% / 4);
+    //width: calc(100% / 4);
     & > figure {
       & > figcaption {
         font-family: "Raleway", sans-serif;
