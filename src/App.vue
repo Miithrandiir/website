@@ -3,8 +3,12 @@
 
 import Header from "./components/template/Header.vue";
 import './assets/sass/template.scss'
+import WhoIAm from "./components/WhoIAm.vue";
+import Passions from "./components/Passions.vue";
 </script>
 
 <template>
   <Header/>
+  <WhoIAm/>
+  <Passions/>
 </template>
