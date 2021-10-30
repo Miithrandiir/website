@@ -11,15 +11,18 @@ header {
   padding: 5px 0;
   background: $main;
   position: relative;
+  width: 100%;
   &>.top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 20px;
+    flex-wrap: wrap;
     &>h1 {
       color: white;
       font-family: "Righteous", sans-serif;
       font-weight: 200;
+      text-align: center;
     }
     &>nav {
       display: flex;
@@ -71,6 +74,28 @@ header {
         font-family: "Raleway", sans-serif;
         font-weight: 100;
       }
+    }
+  }
+}
+
+@media (max-width: 1010px) {
+  svg {
+    display: none;
+  }
+  header>.bottom {
+    flex-direction: column;
+    &>.img {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      &>img {
+        position: initial;
+        width: 75%;
+      }
+    }
+    &>.title {
+      margin: 50px auto;
     }
   }
 }
