@@ -4,9 +4,9 @@
       <h1>Simon HEBAN</h1>
       <nav>
         <ul>
-          <li><a href="">Accueil</a></li>
-          <li><a href="">Compétences</a></li>
-          <li><a href="">Réalisations</a></li>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Compétences</a></li>
+          <li><a href="#">Réalisations</a></li>
         </ul>
       </nav>
     </div>
