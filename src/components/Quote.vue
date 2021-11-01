@@ -59,4 +59,12 @@ export default {
     }
   }
 }
+
+@media (max-width: 1600px) {
+  .quote {
+    &>.img {
+      display: none;
+    }
+  }
+}
 </style>
