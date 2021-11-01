@@ -161,7 +161,7 @@ h1 {
 
     & > .content {
       display: grid;
-      grid-template-columns: repeat(auto-fit, 500px);
+      grid-template-columns: repeat(auto-fit, 470px);
     }
   }
 }
