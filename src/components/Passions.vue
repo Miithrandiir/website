@@ -13,7 +13,7 @@
 
     <div class="passion">
       <figure>
-        <figcaption>Travail manuel</figcaption>
+        <figcaption>Travaux manuels</figcaption>
 
         <img src="../assets/img/logo/user-hard-hat-solid.svg" alt="logo personne avec casque">
       </figure>
@@ -21,7 +21,7 @@
 
     <div class="passion">
       <figure>
-        <figcaption>Science</figcaption>
+        <figcaption>Sciences</figcaption>
 
         <img src="../assets/img/logo/atom.svg" alt="logo atome">
       </figure>
